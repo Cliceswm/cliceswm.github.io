@@ -1,0 +1,78 @@
+/* custom.css - This should be in a separate file */
+.theme-light {
+    background-color: var(--gray-100);
+    color: var(--gray-700);
+    padding: 64px 0;
+}
+
+.section-selector-1 {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.text-center-desktop.text-center-mobile {
+    text-align: center;
+}
+
+.bigger-desktop.bigger-mobile {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 300;
+    margin: 0;
+}
+
+.cols-2-half {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+}
+
+.section-selector-2 {
+    background-color: #fff;
+    padding: 0;
+}
+
+.col-2 {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-text {
+    padding: 60px;
+}
+
+.col-visual {
+    background-color: var(--teal-050);
+}
+
+.col-visual figure {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-visual img {
+    max-height: 400px;
+    width: auto;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #4b5563;
+    margin-bottom: 20px;
+}
