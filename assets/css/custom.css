@@ -26,8 +26,12 @@ header .col-text h2,
     line-height: 1.8
 }
 
-.logo {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+nav .brand img {
+    max-height: 44px;
+    width: auto;
+    transition: transform 0.2s ease;
+}
+
+nav .brand img:hover {
+    transform: scale(1.05);
 }
